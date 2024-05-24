@@ -1,0 +1,13 @@
+body {
+  background-color: #e2f1e7;
+  font-family: sans-serif;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  margin: 0;
+}
+
+form {
+  background-color: white;
+  width: 700px;
+}
