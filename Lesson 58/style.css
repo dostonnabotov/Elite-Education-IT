@@ -1,0 +1,21 @@
+body {
+  background-color: #f8eadc;
+  font-family: sans-serif;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  gap: 32px;
+}
+
+header {
+  background-color: #ec755e;
+  color: white;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+section {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+}

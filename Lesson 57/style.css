@@ -1,0 +1,65 @@
+body {
+  background-color: #1A2649;
+  color: white;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.header {
+  border: 2px solid cyan;
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 800px;
+}
+
+.markaz {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+div {
+  color: black;
+  text-align: center;
+  padding-inline: 32px;
+  border-radius: 8px;
+  background-image: linear-gradient(cyan, darkcyan);
+  font-weight: bold;
+}
+
+div span {
+  font-size: 50px;
+}
+
+button {
+  font-size: 90px;
+  border-radius: 50%;
+  border: 25px solid;
+  padding: 30px;
+  line-height: 1;
+  background-color: black;
+}
+
+.paper {
+  border-color: blue;
+  margin-right: 24px;
+}
+
+.scissors {
+  border-color: yellow;
+}
+
+.rock {
+  border-color: red;
+}
+
+
+
+

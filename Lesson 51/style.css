@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+
+section {
+  display: flex;
+}
+
+.sedans {
+  background-color: orange;
+}
+
+.suvs {
+  background-color: teal;
+}
+
+.luxury {
+  background-color: darkgreen;
+}

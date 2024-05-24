@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  color: white;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+section {
+  display: flex;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+article {
+  padding: 32px;
+}
+
+.sedans {
+  background-color: #E38525;
+}
+
+.suvs {
+  background-color: #016871;
+}
+
+.luxury {
+  background-color: #003F3E;
+}
+
+button {
+  background-color: white;
+  padding: 16px 32px;
+  border-radius: 100vw;
+  margin-top: 50px;
+}
+
+.sedans-btn {
+  color: #E38525;
+}
+
+.suvs-btn {
+  color: #016871;
+}
+
+.luxury-btn {
+  color: #003F3E;
+}
