@@ -1,0 +1,56 @@
+body {
+  background-color: #e2f1e7;
+  font-family: sans-serif;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  margin: 0;
+}
+
+form {
+  background-color: white;
+  width: 700px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.ikki-chetda {
+  display: flex;
+  gap: 16px;
+}
+
+.ikki-chetda > div {
+  flex-basis: 100%;
+}
+
+.query {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: teal;
+  color: white;
+}

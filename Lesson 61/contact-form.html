@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form | Frontend Mentor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Contact Us</h1>
+      <div class="ikki-chetda">
+        <div>
+          <label for="firstName">
+            First Name
+            <span class="yulduzcha">*</span>
+          </label>
+          <input type="text" id="firstName" />
+        </div>
+        <div>
+          <label for="lastName">
+            Last Name
+            <span class="yulduzcha">*</span>
+          </label>
+          <input type="text" id="lastName" />
+        </div>
+      </div>
+      <br />
+      <label for="email">
+        Email Address
+        <span class="yulduzcha">*</span>
+      </label>
+      <input type="email" id="email" />
+      <br /><br />
+      <label for="query">
+        Query Type
+        <span class="yulduzcha">*</span>
+      </label>
+      <div class="ikki-chetda">
+        <div class="query">
+          <input type="radio" name="query" id="query1" />
+          <label for="query1">General Enquiry</label>
+        </div>
+        <div class="query">
+          <input type="radio" name="query" id="query2" />
+          <label for="query2">Support Request</label>
+        </div>
+      </div>
+      <br />
+      <label for="message">
+        Message
+        <span class="yulduzcha">*</span>
+      </label>
+      <textarea id="message" rows="5"></textarea>
+      <br /><br />
+      <input type="checkbox" id="consent" />
+      <label for="consent">
+        I consent to being contacted by the team
+        <span class="yulduzcha">*</span>
+      </label>
+      <br /><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
