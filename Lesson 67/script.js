@@ -61,6 +61,7 @@ let mashinalar = [
 
 console.log(mashinalar);
 
+// yangi usul
 mashinalar = ["Ferrari", ...mashinalar, "Tesla", "BYD"];
 
 console.log(mashinalar);
