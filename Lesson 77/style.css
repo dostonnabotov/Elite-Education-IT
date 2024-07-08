@@ -1,0 +1,9 @@
+:root {
+  --sabzirang: #ffa500;
+  --kichik-radius: 6px;
+  --katta-radius: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
