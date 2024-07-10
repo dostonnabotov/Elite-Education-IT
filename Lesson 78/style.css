@@ -1,0 +1,82 @@
+:root {
+  --sabzirang: #f06717;
+  --kulrang: #e7eff2;
+  --kichik-radius: 8px;
+  --katta-radius: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header,
+section,
+footer {
+  width: min(100% - 16px, 1000px);
+  margin-inline: auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 40px;
+}
+
+.logo {
+  background-color: var(--sabzirang);
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: var(--kulrang);
+  border: 0;
+  border-radius: var(--kichik-radius);
+  padding: 16px 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Birinchi guruh */
+.birinchi-guruh {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.birinchi-guruh div:nth-child(1) {
+  align-self: center;
+}
+
+.birinchi-guruh div:nth-child(2) img {
+  width: 100%;
+  /* kvadrat qilish uchun */
+  aspect-ratio: 1 / 1;
+
+  /* suratni tuzatish uchun */
+  object-fit: cover;
+  border-radius: var(--katta-radius);
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.yonma-yon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
