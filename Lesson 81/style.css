@@ -1,0 +1,28 @@
+header {
+  background-color: green;
+}
+
+/* Planshetda ko'ringanda */
+@media (width < 900px) {
+  header {
+    background-color: orange;
+  }
+}
+
+/* Telefonda ko'ringanda */
+@media (width < 400px) {
+  header {
+    background-color: red;
+  }
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+@media (width < 900px) {
+  ul {
+    flex-direction: column;
+  }
+}
