@@ -1,3 +1,3 @@
 # Web Dasturlash / Elite Education
 
-Elite Education da o'quvchilar bilan birga qilgan darslar to'plami.
+**Elite Education** da o'quvchilar uchun o'tilgan darslar to'plami.
